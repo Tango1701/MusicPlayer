@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/MULTIMIDIA/View/Js/funcoes.js"></script>
+    <link rel="stylesheet" href="\MULTIMIDIA\View\Css\music.css">
+    <title>Reprodutor Musicas </title>
+</head>
+<body>
+
+    <div class="fundo">
+        <img src="/MULTIMIDIA/View/Img/ubuntu.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="player">
+                <img src="/MULTIMIDIA/View/Img/Music1.png" class="IMG">
+                <audio ontimeupdate="carrega()" id="musicas"></audio>
+                <label id="titulo">Titulo da Musica</label>
+                <div class="barra">
+                    <div id="progresso"></div>
+                </div>
+            </div>
+            <div class="lista">
+                <ul id="listaReproducao">
+                    <li>Musica 1</li>
+                    <li>Musica 1</li>
+                    <li>Musica 1</li>
+                    <li>Musica 1</li>
+                    <li>Musica 1</li>
+                </ul>
+            </div>
+            
+        </div>
+        <footer>
+            <label>Desenvolvido por Savage Code Gang</label>
+        </footer>
+    </div>
+</body>
+</html>
